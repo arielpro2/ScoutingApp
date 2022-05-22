@@ -1,2 +1,2 @@
 # ScoutingApp
-Automated web app and API to ease data mining of FRC Scouting entries
+web app and API to automate data mining of FRC Scouting entries
