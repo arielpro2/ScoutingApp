@@ -1,0 +1,57 @@
+@font-face {
+  font-family: RobotFont;
+  src: url("fonts/SFTransRobotics.ttf") format("truetype");
+}
+.main-content{
+  height: 100vh;
+  text-align: justify;
+}
+a.a-nav{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.seporator{
+  margin-bottom: 10rem;
+}
+.nav-div-main{
+  border-radius: 3em 3em 3em 3em;
+  width: 12em;
+  padding-left: 1em;
+  background-image: linear-gradient(to right, #EB3349 0%, #F45C43  51%, #EB3349  100%);
+  height: 2em;
+  top: 1%;
+  transition: 0.2s;
+  color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0rem 0rem 15px #ff4b45;
+  align-items: center;
+  display: flex;
+  position: sticky;
+  float: right;
+}
+.nav-div-main:hover{
+  background-position: right center; /* change the direction of the change here */
+  box-shadow: 0rem 0rem #ff4b45;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+.nav-main{
+  text-align: center;
+}
+html{
+  height: 100%;
+}
+body{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: RobotFont;
+  letter-spacing: 0.1em;
+  background-image: linear-gradient(45deg, #d31027 0%, #EA384D  100%);
+  color: rgba(255, 255, 255, 0.8);
+  margin-left: 4%;
+}
+h1{
+  margin-left: -2%;
+}
+

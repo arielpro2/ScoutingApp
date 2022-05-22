@@ -1,0 +1,14 @@
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='alreadyRegistered.css') }}">
+    <title>Error</title>
+</head>
+<body>
+    <div>
+        <h1>Error</h1>
+        <p class="MainMessage">You already registered for our service. Your token is: {{ token }}</p>
+        <hr>
+        <div class="nav-div-main">
+            <p class="nav-main"><a href="index">back to main page</a></p>
+        </div> 
+    </div>
+</body>

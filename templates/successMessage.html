@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Success</title>
+    <link href="{{ url_for('static', filename='successMessage.css') }}" rel="stylesheet">
+</head>
+<body>
+<div class="nav-div-main">
+    <p class="nav-main"><a class="a-nav" href="index">back to main page</a></p>
+</div>
+<div class="main-message">
+    <p class="main-message-header">
+        Thank you for registering to our service!
+    </p>
+    <p class="footer-message">
+        Use this token to login as a team member: {{memberToken}}
+    </p>
+    <p class="footer-message">
+        Use this token to login as an admin: {{adminToken}}
+    </p>
+    
+</div>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+@font-face {
+    font-family: RobotFont;
+    src: url("fonts/SFTransRobotics.ttf")
+}
+div{
+    text-align: center;
+}
+body{
+    letter-spacing: 0.1em;
+    font-family: RobotFont;
+    text-align: center;
+    background-image: linear-gradient(0deg, #D31027 0%, #EA384D  51%);
+    color: rgba(255, 255, 255, 0.8);
+
+}
+hr{
+    background-image: linear-gradient(to right, #EB3349 0%, #F45C43  51%, #EB3349  100%);
+}
+h1{
+    font-size: 250%;
+}
+
+p.MainMessage{
+ font-size: 200%;
+}
+
+
+.nav-div-main{
+    border-radius: 3em 3em 3em 3em;
+    width: 12em;
+    background-image: linear-gradient(to right, #EB3349 0%, #F45C43  51%, #EB3349  100%);
+    position: fixed;
+    transition: 0.2s;
+    color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0rem 0rem 15px #ff4b45;
+    top: 40%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+  }
+.nav-div-main:hover{
+    background-position: right center; /* change the direction of the change here */
+    box-shadow: 0rem 0rem #ff4b45;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+  .nav-main{
+    text-align: center;
+}

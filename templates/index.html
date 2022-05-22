@@ -1,0 +1,26 @@
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <title>REGISTER</title>
+</head>
+<body>
+    <form action="register" method="post">
+        <div>
+            <h1>REGISTER</h1>
+            <p class="MainMessage">The F.I.R.S.T step to using our application is to register your team</p>
+            <hr>
+            <label for="teamid">Each team needs to register once, each of its members has to use the given token to login on our app platform</label>
+            <br>
+            <br>
+            <label for="teamid">Team Number:</label>
+            <input type="text" placeholder="Enter Team Number" name="TeamNumber" id="teamid" required>
+
+            <br>
+            <br>
+            <div class="container">
+                <button type="submit" class="registerbtn">REGISTER</button>
+            </div>
+            <p>Make sure to read our <a href="PrivacyPolicy">Privacy Policy</a>.</p>
+        </div>
+
+    </form>
+</body>
